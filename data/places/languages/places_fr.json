@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "version": "0.1",
+    "type": "places",
+    "language": "fr"
+  },
+  "data": {
+    "macchu_picchu": {
+      "name": "Macchu Picchu"
+    },
+    "cuzco": {
+      "name": "Cuzco"
+    },
+    "observatoire": {
+      "name": "Observatoire"
+    },
+    "salines": {
+      "name": "Salines"
+    },
+    "terrasses": {
+      "name": "Terrasses"
+    },
+    "forteresse": {
+      "name": "Forteresse"
+    }
+  }
+}

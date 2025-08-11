@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "version": "0.1",
+    "type": "characters",
+    "language": "fr"
+  },
+  "data": {
+    "artisan": {
+      "name": "L'Artisan"
+    },
+    "pretresse": {
+      "name": "La Prêtresse"
+    },
+    "soldat": {
+      "name": "Le Soldat"
+    },
+    "marchande": {
+      "name": "La Marchande"
+    },
+    "educatrice": {
+      "name": "L'Éducatrice"
+    },
+    "fermier": {
+      "name": "Le Fermier"
+    }
+  }
+}

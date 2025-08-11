@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "version": "0.1",
+    "type": "characters",
+    "description": "Kronologic 2 characters configuration"
+  },
+  "data": {
+    "artisan": {
+      "holes": {
+        "private": "(5, 0)",
+        "public": "(0, 3)"
+      }
+    },
+    "pretresse": {
+      "holes": {
+        "private": "(2, 2)",
+        "public": "(5, 3)"
+      }
+    },
+    "soldat": {
+      "holes": {
+        "private": "(3, 1)",
+        "public": "(4, 1)"
+      }
+    },
+    "marchande": {
+      "holes": {
+        "private": "(4, 0)",
+        "public": "(1, 1)"
+      }
+    },
+    "educatrice": {
+      "holes": {
+        "private": "(0, 1)",
+        "public": "(3, 2)"
+      }
+    },
+    "fermier": {
+      "holes": {
+        "private": "(2, 1)",
+        "public": "(5, 2)"
+      }
+    }
+  }
+}

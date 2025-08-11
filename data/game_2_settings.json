@@ -1,0 +1,44 @@
+{
+  "places":
+  {
+    "names":
+    {
+      "french":
+        [
+          "Machu Picchu",
+          "Cuzco",
+          "Observatoire",
+          "Salines",
+          "Terrasses",
+          "Forteresse"
+        ]
+    },
+    "adjacent_matrix":
+      [
+          [0, 1, 0, 0, 0, 0],
+          [1, 0, 1, 1, 0, 0],
+          [0, 1, 0, 0, 1, 0],
+          [0, 1, 0, 0, 0, 1],
+          [0, 0, 1, 0, 0, 1],
+          [0, 0, 0, 1, 1, 0]
+      ]
+  },
+  "cards":
+  {
+    "characters": [
+      {
+        "names": {
+          "french": "L'Artisan",
+          "english": "The Artisan"
+        },
+        "holes": {
+          "private": "(5, 0)",
+          "public": "(0, 3)"
+        }
+      },
+      {
+        "TODO": "TODO"
+      }
+    ]
+  }
+}
