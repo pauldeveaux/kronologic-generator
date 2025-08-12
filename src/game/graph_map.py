@@ -7,26 +7,21 @@ class GraphMap:
     Represents a graph map of places in the game.
     Contains a list of places and an adjacency matrix representing connections between them.
     """
-    def __init__(self, places_name: List[str], adjacency_matrix):
+    def __init__(self, places: List['Place'], adjacency_matrix):
         """
         Initializes a GraphMap with a list of place names and an adjacency matrix.
-        :param places_name: A list of place names.
+        :param places: A list of Place objects representing the places in the game.
         :param adjacency_matrix: A 2D numpy array representing the adjacency matrix of the graph.
         """
         self.adjacency_matrix = adjacency_matrix
-        self.places_name = places_name
-        self.places = []
-
-        for name in places_name:
-            place = Place(name)
-            self.places.append(place)
+        self.places = places
 
         # Add successors and predecessors to each Place
-        self.generate_place_adjacency()
+        self._generate_place_adjacency()
 
 
 
-    def generate_place_adjacency(self):
+    def _generate_place_adjacency(self):
         """
         Generates the adjacency relationships between places based on the adjacency matrix.
         This method iterates through the adjacency matrix and sets the successors and predecessors for each place.
@@ -34,7 +29,7 @@ class GraphMap:
         for each successor.
         :return: None
         """
-        for current_place, adjacency in zip(self.places, adjacency_matrix):
+        for current_place, adjacency in zip(self.places, self.adjacency_matrix):
             adjacency = np.array(adjacency)
             successor_indices = np.where(adjacency == 1)[0]
             successor_places = [self.places[j] for j in successor_indices]

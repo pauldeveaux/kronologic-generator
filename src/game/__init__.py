@@ -1,6 +1,6 @@
 from .character import  Character
 from .card import Card, HolesCard, IconsCard, CharacterCard, TimeCard
-
+from .graph_map import GraphMap
 
 __all__ = [
     "Character",
@@ -8,5 +8,7 @@ __all__ = [
     "HolesCard",
     "IconsCard",
     "CharacterCard",
-    "TimeCard"
+    "TimeCard",
+    "GraphMap",
 ]
+

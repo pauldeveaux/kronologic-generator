@@ -3,4 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="Python 3.13 (kronologic_generator)" />
   </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="uv (kronologic-generator)" project-jdk-type="Python SDK" />
 </project>
